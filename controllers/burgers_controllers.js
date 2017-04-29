@@ -20,9 +20,9 @@ router.post("/", function(req, res) {
   })
 });
 
-router.put("/", function(req, res) {
-  console.log(req.body);
-  burger.devour(req.body.name, function() {
+router.put("/:name", function(req, res) {
+  console.log();
+  burger.devour(req.params.name, function() {
     res.redirect("/");
   });
 });

@@ -1,3 +1,4 @@
+USE `burgers_db`;
 INSERT INTO `burgers` (`burger_name`) VALUES ("Unicorn Horn Burger");
 INSERT INTO `burgers` (`burger_name`) VALUES ("Wyvern Wing Burger");
 INSERT INTO `burgers` (`burger_name`) VALUES ("Cerberus Triple Decker");
